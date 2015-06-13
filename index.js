@@ -4,7 +4,7 @@
 
   pongular = require('pongular').pongular;
 
-  module.exports = pongular.module('pong-q').service('$q', function() {
+  module.exports = pongular.module('pong-q', []).service('$q', function() {
     return require('q');
   }).service('$promise', function($q) {
     return function(fn) {

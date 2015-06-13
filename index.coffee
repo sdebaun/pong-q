@@ -2,7 +2,7 @@ pongular = require('pongular').pongular;
 
 module.exports = 
 
-pongular.module 'pong-q'
+pongular.module 'pong-q', []
 
 .service '$q', -> require 'q'
 
