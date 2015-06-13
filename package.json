@@ -1,0 +1,22 @@
+{
+  "name": "pong-q",
+  "version": "1.0.0",
+  "description": "pongular service for q",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdebaun/pong-q.git"
+  },
+  "author": "'sdebaun' <'sdebaun74@gmail.com'>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdebaun/pong-q/issues"
+  },
+  "homepage": "https://github.com/sdebaun/pong-q",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
